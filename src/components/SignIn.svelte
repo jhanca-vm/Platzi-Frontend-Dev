@@ -1,6 +1,6 @@
 <style>
   section {
-    min-height: calc(100vh - 160px);
+    min-height: calc(100vh - 128px);
     padding: 1rem;
     font-size: 14px;
   }
@@ -79,6 +79,10 @@
   }
 
   @media (min-width: 568px) {
+    section {
+      min-height: calc(100vh - 160px);
+    }
+
     .container {
       height: 600px;
       width: 400px;
@@ -86,7 +90,7 @@
       padding: 50px 50px 40px;
       border: 2px solid white;
       border-radius: 40px;
-      background-color: rg0px 30pxba (255, 255, 255, 0.1);
+      background-color: rgba(255, 255, 255, 0.1);
       box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25), 0 8px 10px rgba(0, 0, 0, 0.22);
     }
   }
